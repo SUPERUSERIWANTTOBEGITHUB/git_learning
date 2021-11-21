@@ -4,9 +4,10 @@ def plus(a, b):
 def minus(a, b):
     return a - b
 
-text = 'kaek kjdsglk'
-
-
+def multi(a, b):
+    return a * b
 
 if __name__ == '__main__':
     print(plus(2, 2))
+    print(minus(6, 2))
+    print(multi(4, 2))
